@@ -1,0 +1,14 @@
+The downloaded data has its own codebooks to which the user is referred.
+
+The output data is in the file `new_data.txt`.
+
+The output data is the amalgamation the observational data from both the training and testing data sets, omitting the pre-process sensor signals. The output data is merged with the subject and activity data, grouped by those two items, and then each column is averaged within that grouping.
+
+The first column of the data provides the subject's identity
+
+The second column of the data provides the activity the subject was performing
+
+Subsequent columns contain the mean of the respective input values
+
+Columns are separated by whitespace.
+
